@@ -3,8 +3,8 @@
 :root {
   --cor-texto-primaria: #000000;
   --cor-texto-secundaria: #ffffff;
-  --background-topo: #f9db79;
-  --background-rodape: #000000;
+  --background-primario: #f9db79;
+  --background-secundario: #000000;
 }
 
 * {
