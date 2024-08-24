@@ -20,3 +20,22 @@
   #474747
   #D9DDE1
 */
+
+.titulo {
+  font-size: 100px;
+  color: var(--cor-texto-secundaria);
+  text-shadow: 3px 5px 2px #474747;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 420px) {
+  .titulo {
+    font-size: 50px;
+  }
+}
