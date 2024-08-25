@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+}
+
+.secao_banner {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-primario);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../public/banner-home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
