@@ -23,6 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Este é o projeto do site da Gelateria.
+<br>
 Exemplo prático do Curso de Front-end da [DevMedia](https://github.com/DevMedia)
 
 - [Acesse o projeto finalizado, online](https://projeto-sorveteria-beta.vercel.app/)
