@@ -1,0 +1,53 @@
+.secao {
+  width: 100%;
+  display: flex;
+}
+
+.secao.invertida {
+  flex-direction: row-reverse;
+}
+
+.secao .imagem {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.secao .container_texto {
+  width: 50%;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.secao h2 {
+  font-size: 36px;
+}
+
+.secao span {
+  font-size: 20px;
+}
+
+.secao p {
+  font-size: 16px;
+}
+
+.secao h2,
+.secao span,
+.secao p {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .secao {
+    flex-direction: column;
+  }
+
+  .secao .imagem,
+  .secao .container_texto {
+    width: 100%;
+  }
+}
