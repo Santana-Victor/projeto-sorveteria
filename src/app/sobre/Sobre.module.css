@@ -1,0 +1,54 @@
+.main {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.secao_banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../../public/banner-sobre.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secao_sobre {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.secao_sobre h2 {
+  font-size: 32px;
+}
+
+.secao_sobre span {
+  font-size: 20px;
+}
+
+.secao_sobre p {
+  font-size: 16px;
+}
+
+.secao_sobre h2,
+.secao_sobre span,
+.secao_sobre p {
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+}
+
+.galeria .imagem {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
