@@ -1,0 +1,62 @@
+.main {
+  width: 100%;
+}
+
+.secao_banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../../public/banner-sabores.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secao_sabores {
+  width: 100%;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.secao_sabores .container_cards {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.secao_sabores .card {
+  flex: 1 1 300px;
+  padding: 20px;
+  box-shadow: 2px 2px 15px 2px #d9dde1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.secao_sabores .imagem_card {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  background: none;
+}
+
+.secao_sabores h3 {
+  font-size: 18px;
+}
+
+.secao_sabores p {
+  font-size: 16px;
+}
+
+.secao_sabores h3,
+.secao_sabores p {
+  text-align: center;
+}

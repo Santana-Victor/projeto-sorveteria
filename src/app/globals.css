@@ -16,11 +16,6 @@
   color: var(--cor-texto-primaria);
 }
 
-/* 
-  #474747
-  #D9DDE1
-*/
-
 .titulo {
   font-size: 100px;
   color: var(--cor-texto-secundaria);
