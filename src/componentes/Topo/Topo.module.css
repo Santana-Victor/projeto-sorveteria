@@ -2,6 +2,9 @@
   width: 100%;
   padding: 0 20px;
   background-color: var(--background-primario);
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .header .container_topo {
